@@ -4,7 +4,7 @@
 > 
 > Android App for Czech national bill lottery.
 > 
-> Created as a bachelor thesis @ BUT FIT CZ.
+> Created as a bachelor thesis @ BUT FIT CZ in 2018.
 
 ---
 
@@ -26,7 +26,7 @@
 
 ### Used Technologies
 
-* Java 7 | Kotlin
+* Java 7
 * Google Firebase
   * Firebase Realtime Database
   * Firebase ML Kit - OCR
