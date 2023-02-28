@@ -1,2 +1,7 @@
 # AndrejBillLottery
-Application created as a bachelor thesis @ BUT FIT CZ.
+
+> Andrej - Účtenkovka
+> Android App for Czech national bill lottery
+> Created as a bachelor thesis @ BUT FIT CZ.
+
+---

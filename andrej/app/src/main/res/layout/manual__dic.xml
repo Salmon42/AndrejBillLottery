@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".frontend.manual.VatDialog"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingBottom="4dp"
+    android:paddingStart="24dp"
+    android:paddingEnd="0dp"
+    android:paddingTop="16dp">
+
+    <TextView
+        android:id="@+id/mdlg_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/act_scan_manual_dic"
+        android:textColor="@color/colorBlack"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:id="@+id/mdlg_content"
+        android:layout_below="@+id/mdlg_title"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+
+        <TextView
+            android:id="@+id/lmv_dlg_content_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textSize="20sp"
+            android:text="CZ" />
+
+        <EditText
+            android:id="@+id/lmv_dlg_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/lmv_dlg_content_tv"
+            android:inputType="numberSigned"
+            android:gravity="start"
+            android:hint="0123456789"
+            android:ems="6" />
+
+    </RelativeLayout>
+
+    <include layout="@layout/manual__dlg_buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mdlg_content"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

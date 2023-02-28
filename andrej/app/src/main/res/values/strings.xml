@@ -1,0 +1,227 @@
+<resources>
+    <string name="app_name">Andrej</string>
+    <string name="app_name_full">Andrej - Účtenkovka</string>
+    <string name="app_desc">Vaše aplikace pro účtenkovou loterií</string>
+    <string name="app_version">Verze 1.0</string>
+
+    <string name="uctenkovka_reglink">https://www.uctenkovka.cz/registrace</string>
+
+    <!--
+    Contents:
+        Basic & Stock strings
+        NavigationDrawer strings
+        Activities-related strings
+            ScanActivity
+        Dialogs-related strings
+            Login dialog
+            No internet - error dialog
+            Toasts
+        Fragments-related strings
+            Home
+            AddBill
+            MyBills
+            Account
+            BugReport
+            About
+        Preferences-related strings
+            Settings
+        Menus-related strings
+        Other
+     -->
+
+    <!-- Basic strings -->
+    <string name="ok">OK</string>
+    <string name="fine">Dobře</string>
+    <string name="yes">Ano</string>
+    <string name="no">Ne</string>
+    <string name="cancel">Zrušit</string>
+    <string name="loading">Načítávám…</string>
+    <string name="later">Později</string>
+    <string name="email">E-mail</string>
+    <string name="password">Heslo</string>
+    <string name="phone">Telefon</string>
+    <string name="send">Odeslat</string>
+    <string name="show">Zobrazit</string>
+    <string name="update">Aktualizovat</string>
+    <string name="delete">Smazat</string>
+
+    <!-- Stock strings -->
+    <string name="stock__email">email@email.cz</string>
+    <string name="stock__phone">(+420) ___ ___ ___</string>
+    <string name="login">Přihlásit se</string>
+    <string name="register">Zaregistrovat</string>
+    <string name="acc__create_new">Vytvořit</string>
+    <string name="acc__add">Přidat účet</string>
+    <string name="acc__add_later">Přidat později</string>
+    <string name="epsilon" />
+    <string name="bill_mode_normal">Běžný</string>
+    <string name="bill_mode_simple">Zjednodušený</string>
+
+    <!-- SideBarMenu Content & Activities header -->
+    <string name="label_home">Domov</string>
+    <string name="label_addbill">Přidat účtenku</string>
+    <string name="label_mybills">Moje účtenky</string>
+    <string name="label_lottery">Loterie</string>
+    <string name="label_account">Účet</string>
+    <string name="label_settings">Nastavení</string>
+    <string name="label_bugreport">Nahlásit chybu</string>
+    <string name="label_donate">Přispět</string>
+    <string name="label_about">O aplikaci</string>
+
+    <string-array name="months">
+        <item>Leden</item>
+        <item>Únor</item>
+        <item>Březen</item>
+        <item>Duben</item>
+        <item>Květen</item>
+        <item>Červen</item>
+        <item>Červenec</item>
+        <item>Srpen</item>
+        <item>Září</item>
+        <item>Říjen</item>
+        <item>Listopad</item>
+        <item>Prosinec</item>
+    </string-array>
+
+    <string-array name="weekdays_short">
+        <item>Po</item>
+        <item>Út</item>
+        <item>St</item>
+        <item>Čt</item>
+        <item>Pá</item>
+        <item>So</item>
+        <item>Ne</item>
+    </string-array>
+
+    <!-- - - - - - - - - - - - - - - - - - - - ACTIVITIES - - - - - - - - - - - - - - - - - - - -->
+
+    <!-- ManualBillRegistrationActivity -->
+    <string name="bill_id">FIK nebo BKP</string>
+    <string name="bill_fik">FIK</string>
+    <string name="bill_bkp">BKP</string>
+    <string name="bill_date">Datum</string>
+    <string name="bill_date_long">Datum tržby</string>
+    <string name="bill_time">Čas</string>
+    <string name="bill_time_long">Čas tržby</string>
+    <string name="bill_datetime">Datum a čas</string>
+    <string name="bill_sum">Částka</string>
+    <string name="bill_mode">Režim</string>
+    <string name="bill_mode_long">Režim tržby</string>
+    <string name="bill_dic">DIČ</string>
+    <string name="act_mbr_title">Registrace účtenky</string>
+    <string name="act_mbr_toast_missing">Některé údaje jěšte chybí…</string>
+    <string name="act_mbr_exit">Zrušit registraci?</string>
+    <string name="act_mbr_exit_desc">Pokud se vrátíte zpět, načtená účtenka nebude smazána.</string>
+
+    <!-- - - - - - - - - - - - - - - - - - - - - DIALOGS - - - - - - - - - - - - - - - - - - - - -->
+
+    <!-- Update dialog -->
+    <string name="dlg__update">Dostupná aktualizace!</string>
+    <string name="dlg__update_desc">Andrej má novou aktualizaci, můžete si jí teď stáhnout přes Google Play!</string>
+
+    <!-- Login dialog themed messages -->
+    <string name="dlg__login_email_err">Zadejte e-mail ve správném formátu.</string>
+    <string name="dlg__login_phone_err">Zadejte telefonní číslo bez předvolby.</string>
+    <string name="dlg__login_pass_err">Heslo musí obsahovat alespoň 8 znaků a 1 číslici.</string>
+
+    <!-- Internet connection themed messages -->
+    <string name="net_err">Chyba internetového připojení</string>
+    <string name="net_err_gen">Aplikace potřebuje pro přihlášení internetové připojení, skontrolujte, jestli je v pořádku.</string>
+    <string name="net_err_toast">Skontrolujte internetové připojení.</string>
+    <string name="net_err_desc">Při navázání spojení s Účtenkovkou došlo k chybě. Skontrolujte internetové připojení nebo přihlašovací údaje k vašemu účtu. Naskenována účtenka byla uložena.</string>
+
+    <string name="act_base_dlg_old">Stará účtenka</string>
+    <string name="act_base_dlg_old_desc">Tuto účtenku již nemůžete zaregistrovat, je mimo součastného slosovacího období.</string>
+
+    <string name="act_base_dlg_no_acc">Vaše účtenka byla uložena</string>
+    <string name="act_base_dlg_no_acc_desc">Zatím jste nenastavili Andrejovi účet, na který má účtenky registrovat. Účtenku pak můžete odeslat znovu v sekci Moje účtenky.</string>
+
+    <string name="act_base_dlg_relog">Přihlášení vypršelo</string>
+    <string name="act_base_dlg_relog_desc">Účtenkovka ohlásila Andreje z Vašeho hráčského účtu, proto nemůže registrovat. Účtenka byla uložena. Přihlásit se můžete znovu přes kartu Domov nebo Účet.</string>
+    <string name="act_base_dlg_relog_update">Účtenkovka ohlásila Andreje z Vašeho hráčského účtu, proto nemůže aktualizovat účtenky. Přihlásit se můžete znovu přes kartu Domov nebo Účet.</string>
+
+    <string name="act_base_dlg_duplicate">Tahle účtenka byla již zaregistrovaná. Registrujte pouze účtenky, které nebyli zařazeny do hry.</string>
+    <string name="act_base_dlg_unexpect">Počas registrace účtenky došlo k neočekávané chybě :( Pokud jste si všimli něčeho neobvyklého při skenování nebo registrování účtenky něčeho neobvyklého, prosím zkuste nahlásit tuto chybu, ať se už neopakuje.</string>
+    <string name="act_base_toast_success_registration">Účtenka byla úspěšně zaregistrována!</string>
+
+    <!-- IntroDialog - registration -->
+    <string name="dlg__reg_finish">Dokončení registrace</string>
+    <string name="dlg__reg_finish_desc">Po dokončení registrace se můžete přihlásit přes Andreje a hrát!</string>
+
+    <!-- - - - - - - - - - - - - - - - - - - - FRAGMENTS - - - - - - - - - - - - - - - - - - - -->
+    <!-- Home fragment -->
+    <string name="frag_home_ok">Všechno je v pořádku!</string>
+    <string name="frag_home_notlogged">Nejste přihlášen.</string>
+    <string name="frag_home_unregbill">Máte nezaregistrované účtenky (%1$d).</string>
+    <string name="frag_home_relog">Relace na aktivním účtu vypršela. Přihlašte se znovu.</string>
+    <string name="frag_home_update">Aplikace je připravena na aktualizaci.</string>
+    <string name="frag_home_solver_play">Hrát</string>
+    <string name="frag_home_solver_update">Stáhnout</string>
+
+    <!-- Add Bill fragment -->
+    <string name="frag_addbill_title">Registrace nové účtenky</string>
+    <string name="frag_addbill_btn_liveocr">Oskenovat účtenku</string>
+    <string name="frag_addbill_btn_liveocr_desc">Naskenujte si účtenku! Skenování účtenky probíhá podobně jako u oficiálné aplikace, ale je to mnohem jednodušší!</string>
+    <string name="frag_addbill_btn_manual">Zadat manuálně</string>
+    <string name="frag_addbill_btn_manual_desc">Vyplňte si v klidu formulář pro registraci účtenky. Andrej se Vám pokusí při tom pomoct!</string>
+
+    <!-- Account fragment -->
+    <string name="frag_account_current_title">Aktivní účet</string>
+    <string name="frag_account_noaccount">Nezadán</string>
+    <string name="toast__login_succ">Přihlášení proběhlo úspěšně!</string>
+    <string name="toast__login_fail">Nepodařilo se načíst účtenky zo serveru účtenkovky.</string>
+    <string name="toast__login_alert_fail">Zadejte prosím správné přihlašovací údaje.</string>
+    <string name="progbar_login">Získávání dat z Učtenkovky…</string>
+
+    <string name="frag_account_dlg_delete_acc">Smazat účet?</string>
+    <string name="frag_account_dlg_delete_acc_desc">Tímto smažete z Andreje Váš aktivní účet a všechny záznamy o účtenkách pro tento účet z vašeho telefonu, nikoliv z Účtenkovky.</string>
+    <string name="frag_account_toast_delete_acc">Účet byl úspěšně odstraněn z aplikace.</string>
+
+    <!-- BugReport fragment -->
+    <string name="frag_bugreport_message_hint">Zkuste konkrétněji popsat problém, který chcete nahlásit. Velikost zprávy je omezena na 500 znaků.</string>
+    <string name="frag_bugreport_message_maxtoast">Délka správy dosáhla svého limitu.</string>
+    <string name="frag_bugreport_message_toast">Vaše zpráva je zaznamenána a bude odeslána vývojáři.</string>
+    <string-array name="frag_bugreport_type">
+        <item>Vyberte typ chyby</item>
+        <item>Skenování</item>
+        <item>Prohlížení</item>
+        <item>Jiné</item>
+    </string-array>
+
+    <!-- Donate fragment -->
+    <string name="frag_donate_info">Aplikace je zatím v beta verzi.</string>
+
+    <!-- About fragment -->
+    <string name="frag_about_desc">Tato aplikace vznikla jako bakalářšká práce na FIT VUT.</string>
+    <string name="frag_about_contr">Použité ikony byly převzaty z www.flaticon.com od autorů Google a Freepik.</string>
+    <string name="frag_about_btn_policy">Ochrana osobních údajů</string>
+    <string name="frag_about_easter_egg">Sorry jako…</string>
+    <string name="frag_about_easter_egg_desc">…</string>
+
+    <!-- - - - - - - - - - - - - - - - - - - - PREFERENCES - - - - - - - - - - - - - - - - - - - -->
+
+    <!-- Settings preferences -->
+    <string name="pref_help_title">Zobrazovat nápovědu</string>
+    <string name="pref_help_desc">Pokud vám vadí vyskakovací okna a nápovědy, můžete to vypnout právě tady.</string>
+
+    <string name="pref_scan_at_start">Okamžité skenování</string>
+    <string name="pref_scan_at_start_desc">Aplikace spustí skenování ihned po jejím zapnutí.</string>
+
+    <string name="pref_fab_title">Rychlé skenování</string>
+    <string name="pref_fab_desc">Přepněte pro zobrazení nebo skrytí tlačítka rychlého skenování.</string>
+
+    <string name="pref_extscan_title">Rozšířené skenování (BETA)</string>
+    <string name="pref_extscan_desc">Povolit skenování DIČ z účtenky (pro rozšířenou funkcionalitu aplikace)</string>
+
+    <!-- - - - - - - - - - - - - - - - - - - - - MENUS - - - - - - - - - - - - - - - - - - - - - -->
+    <string name="menu_fill_bill_clear">Začít znovu</string>
+    <string name="menu_scanning_flash">Blesk</string>
+    <string name="menu_scanning_views">Skrýt/Zobrazit</string>
+
+
+    <!-- Other -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="logo_desc">Logo aplikace</string>
+
+</resources>

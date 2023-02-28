@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="32dp"
+    android:paddingRight="32dp"
+    android:layout_centerInParent="true"
+    tools:context="com.andrejhucko.andrej.fragments.AddBillFrag">
+
+    <!-- Skenování účtenky probíhá podobně jako u oficiálné aplikace, ale je to mnohem jednodušší! -->
+
+    <TextView
+        android:id="@+id/abf_desc_live"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/frag_addbill_btn_liveocr_desc" />
+
+    <Button
+        android:id="@+id/abf_button_live"
+        style="@style/AppButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/abf_desc_live"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="8dp"
+        android:text="@string/frag_addbill_btn_liveocr"
+        android:textAllCaps="true"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/abf_desc_manual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/abf_button_live"
+        android:layout_marginTop="32dp"
+        android:gravity="center_horizontal"
+        android:text="@string/frag_addbill_btn_manual_desc" />
+
+    <Button
+        android:id="@+id/abf_button_manual"
+        style="@style/AppButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/abf_desc_manual"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="8dp"
+        android:text="@string/frag_addbill_btn_manual"
+        android:textAllCaps="true"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold" />
+
+</RelativeLayout>
+

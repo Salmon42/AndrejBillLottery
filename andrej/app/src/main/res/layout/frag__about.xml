@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.andrejhucko.andrej.fragments.AboutFrag">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <ImageView
+                android:id="@+id/fa_image"
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:src="@mipmap/ic_launcher"
+                android:contentDescription="@string/logo_desc"/>
+
+            <TextView
+                android:id="@+id/fa_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fa_image"
+                android:layout_centerHorizontal="true"
+                android:padding="16dp"
+                android:text="@string/app_name"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/fa_version"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fa_name"
+                android:layout_centerHorizontal="true"
+                android:text="@string/app_version"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/fa_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fa_version"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="@string/frag_about_desc"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/af_btn_policy"
+                android:layout_below="@+id/fa_desc"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="8dp"
+
+                android:text="@string/frag_about_btn_policy"
+                android:textAllCaps="true"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold"
+                style="@style/AppButton" />
+
+            <TextView
+                android:id="@+id/af_tv_icons"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/af_btn_policy"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="@string/frag_about_contr"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

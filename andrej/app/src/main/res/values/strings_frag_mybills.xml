@@ -1,0 +1,60 @@
+<resources>
+
+    <!-- My Bills fragment -->
+
+    <!-- Toasts -->
+    <string name="frag_mybills_neterr_toast">Andrejovi se nepodařilo aktualizovat seznam, skontrolujte prosím připojení.</string>
+    <string name="frag_mybills_acc_toast">Zatím jste nenastavili Andrejovi účet. Přihlašte se a pak budete moci aktualizovat seznam.</string>
+    <string name="frag_mybills_updated">Vaše účtenky byli aktualizovány.</string>
+    <string name="frag_mybills_no_update">Vše máte již aktualizováno.</string>
+
+
+    <!-- Dialogs -->
+    <string name="bill_detail_dlg_delete">Smazat účtenku?</string>
+    <string name="bill_detail_dlg_delete_desc">Pokud odstraníte tuhle účtenku, budete jí muset naskenovat znovu.</string>
+
+
+    <string name="frag_mybills_filter_title_draw">Slosování</string>
+    <string name="frag_mybills_filter_title_pick">Zvolit filtr</string>
+
+    <!-- Filter - type -->
+    <string name="frag_mybills_filter_draw_current">Aktuální slosování</string>
+    <string name="frag_mybills_filter_draw_unsent">Neodeslané</string>
+
+    <string name="frag_mybills_filter_title">Zobrazit v seznamu</string>
+    <string name="frag_mybills_filter_0">Všechny</string>
+    <string name="frag_mybills_filter_1">Neodeslané</string>
+    <string name="frag_mybills_filter_2">V slosování</string>
+    <string name="frag_mybills_filter_4">Výherné</string>
+    <string name="frag_mybills_filter_3">Nevýherné</string>
+    <string name="frag_mybills_filter_5">Chybné</string>
+
+    <string name="frag_mybills_filter_all">Všechny</string>
+    <string name="frag_mybills_filter_indraw">V slosování</string>
+    <string name="frag_mybills_filter_winning">Výherné</string>
+    <string name="frag_mybills_filter_nonwin">Nevýherné</string>
+    <string name="frag_mybills_filter_wrong">Chybné</string>
+
+
+
+    <!-- Detail -->
+    <string name="bill_detail_title">Detail účtenky</string>
+    <string name="bill_detail_used_acc">Herní účet</string>
+    <string name="bill_detail_billstate">Stav</string>
+    <string name="bill_detail_drawdate">Slosování</string>
+
+    <string name="bill_detail_state_not_reg">Nezaregistrována</string>
+    <string name="bill_detail_state_new">Ověřuje se</string>
+    <string name="bill_detail_state_verified">Ověřena v EET</string>
+    <string name="bill_detail_state_indraw">Ve slosování</string>
+    <string name="bill_detail_state_not_winning">Nevýherní</string>
+    <string name="bill_detail_state_winning">Výherní!</string>
+    <string name="bill_detail_state_vio">Nesplňuje 1x1x1</string>
+    <string name="bill_detail_billdate">Účtenka z %1$s</string>
+
+    <!-- see jsonkey class -->
+    <string name="bill_detail_winning_state_bacc_succ">Vyplaceno převodem</string>
+
+    <string name="frag_mybills_drawfilter">Slosovací období</string>
+
+</resources>

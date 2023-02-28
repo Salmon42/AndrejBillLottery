@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffa000</color>
+    <color name="colorPrimaryDark">#fb8c00</color>
+    <color name="colorAccent">#ffc400</color>
+
+    <color name="colorBackground">#eee</color>
+    <color name="colorBlack">#000</color>
+    <color name="colorWhite">#fff</color>
+    <color name="colorGray">#ddd</color>
+    <color name="darkGray">#666</color>
+    <color name="midGray">#888</color>
+
+    <color name="transPrimary">#aaffc400</color>
+    <color name="transWhite">#66ffffff</color>
+    <color name="transBlack">#66000000</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="billInCheck">#99f57f17</color>
+    <color name="billInDraw">#99ffc400</color>
+    <color name="billNotWinning">#990277bd</color>
+    <color name="billIsWinning">#992e7d32</color>
+    <color name="billNotRegistered">#99d50000</color>
+    <color name="billNextLotteryDate">#9900bbff</color>
+</resources>

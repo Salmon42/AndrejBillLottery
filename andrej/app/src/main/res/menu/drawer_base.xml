@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_house"
+            android:title="@string/label_home" />
+
+        <item
+            android:id="@+id/nav_add_bill"
+            android:icon="@drawable/ic_menu_add"
+            android:title="@string/label_addbill" />
+
+        <item
+            android:id="@+id/nav_my_bills"
+            android:icon="@drawable/ic_menu_bill"
+            android:title="@string/label_mybills" />
+
+        <item
+            android:id="@+id/nav_lottery"
+            android:icon="@drawable/ic_menu_calendar"
+            android:title="@string/label_lottery"
+            />
+
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/ic_menu_account"
+            android:title="@string/label_account"
+            />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_menu_settings"
+            android:title="@string/label_settings"
+            />
+
+        <item
+            android:id="@+id/nav_bugreport"
+            android:icon="@drawable/ic_menu_bugreport"
+            android:title="@string/label_bugreport"
+            />
+
+        <item
+            android:id="@+id/nav_donate"
+            android:icon="@drawable/ic_menu_donate"
+            android:title="@string/label_donate"
+            />
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_menu_about"
+            android:title="@string/label_about"
+            />
+
+    </group>
+
+</menu>

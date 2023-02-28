@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.andrejhucko.andrej.fragments.AccountFrag">
+
+    <RelativeLayout
+        android:id="@+id/maf_header_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:padding="8dp"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/maf_header_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp"
+            android:text="@string/frag_account_current_title"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/maf_header_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/maf_header_title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/maf_divider"
+        android:layout_below="@+id/maf_header_layout"
+        style="@style/Divider" />
+
+    <LinearLayout
+        android:id="@+id/maf_account_choices"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/maf_divider">
+
+        <RelativeLayout
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="Pokud už tenhle účet nechcete používat, můžete ho smazat."
+                android:layout_toStartOf="@+id/maf_current_delete"/>
+
+            <Button
+                android:id="@+id/maf_current_delete"
+                style="@style/AppButtonTransparent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="16dp"
+                android:includeFontPadding="true"
+                android:text="Smazat účet"
+                android:textAllCaps="true"
+                android:textColor="@color/darkGray"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="Zadejte heslo pro Váš účet pokud vypršela relace vašeho přihlášení, nebo ste si změnili heslo."
+                android:layout_toStartOf="@+id/maf_current_update"
+                />
+
+            <Button
+                android:id="@+id/maf_current_update"
+                style="@style/AppButtonTransparent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:includeFontPadding="true"
+                android:text="Zadat heslo"
+                android:textAllCaps="true"
+                android:textColor="@color/darkGray"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/maf_divider_2"
+        android:layout_below="@+id/maf_account_choices"
+        style="@style/Divider"
+        />
+
+    <RelativeLayout
+        android:id="@+id/maf_preferences"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/maf_divider_2">
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/maf_add_acc"
+        style="@style/AppButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="16dp"
+        android:includeFontPadding="true"
+        android:text="@string/acc__add"
+        android:textAllCaps="true"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold" />
+
+</RelativeLayout>

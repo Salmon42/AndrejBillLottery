@@ -1,0 +1,45 @@
+<resources>
+
+    <!-- ScanActivity -->
+
+    <!-- Main templates -->
+    <string name="act_scan_id">\u0020FIK nebo BKP\u0020</string>
+    <string name="act_scan_fik">\u0020FIK\u0020</string>
+    <string name="act_scan_bkp">\u0020BKP\u0020</string>
+    <string name="act_scan_date">\u0020Datum\u0020</string>
+    <string name="act_scan_time">\u0020Čas\u0020</string>
+    <string name="act_scan_sum">\u0020Cena\u0020</string>
+    <string name="act_scan_mode">\u0020Režim\u0020</string>
+    <string name="act_scan_dic">\u0020DIČ\u0020</string>
+
+    <string name="act_scan_progdlg_msg">Registrace účtenky…</string>
+    <string name="act_scan_rejected_bill">Neplatná účtenka</string>
+    <string name="act_scan_rejected_bill_desc">Registrace účtenky přeběhla neúspěšne, některé údaje jsou nesprávné.</string>
+    <string name="act_scan_mandlg_intro_title">Skenování - %1$s</string>
+    <string name="act_scan_mandlg_intro_btn_pos">Znovu načíst</string>
+    <string name="act_scan_mandlg_intro_btn_neg">Opravit</string>
+    <string name="act_scan_success">Rozpoznávání dokončeno!</string>
+
+    <!-- Scan Activity reset form dlg -->
+    <string name="act_scan_reset_dlg">Resetovat skenování?</string>
+    <string name="act_scan_reset_dlg_desc">Chcete smazat naskenované údaje a začít odznovu?</string>
+    <!-- Scan Activity cancel form dlg -->
+    <string name="act_scan_cancel">Zrušit skenování?</string>
+    <string name="act_scan_cancel_desc">Pokud teď ukončíte skenování účtenky, rozpoznané údaje nebudou uloženy.</string>
+
+    <!-- Manual Entries -->
+    <string name="act_scan_manual_bkpfik">Zadejte BKP nebo FIK kód:</string>
+    <string name="act_scan_manual_bkpfik_fikcode">FIK kód</string>
+    <string name="act_scan_manual_bkpfik_bkpcode">BKP kód</string>
+    <string name="act_scan_manual_bkpfik_toast_fik">Zadejte kód FIK ve správném formátu.</string>
+    <string name="act_scan_manual_bkpfik_toast_bkp">Zadejte kód BKP ve správném formátu.</string>
+    <string name="act_scan_manual_date">Zadejte datum tržby:</string>
+    <string name="act_scan_manual_time">Zadejte čas tržby:</string>
+    <string name="act_scan_manual_time_toast">Zadejte čas ve formátu HH:MM.</string>
+    <string name="act_scan_manual_sum">Zadejte celkovou cenu:</string>
+    <string name="act_scan_manual_sum_toast">Zadejte částku ve správném formátu.</string>
+    <string name="act_scan_manual_mode">Zadejte režim tržby:</string>
+    <string name="act_scan_manual_dic">Zadejte DIČ prodejce:</string>
+    <string name="act_scan_manual_dic_toast">DIČ obsahuje 8 až 10 číslic.</string>
+
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.preference.PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.andrejhucko.andrej.fragments.SettingsFrag">
+
+    <SwitchPreferenceCompat
+        android:key="prefs_show_help"
+        android:defaultValue="true"
+        android:title="@string/pref_help_title"
+        android:summary="@string/pref_help_desc" />
+
+    <SwitchPreferenceCompat
+        android:key="prefs_scanning_at_start"
+        android:defaultValue="false"
+        android:title="@string/pref_scan_at_start"
+        android:summary="@string/pref_scan_at_start_desc"
+        />
+
+    <SwitchPreferenceCompat
+        android:key="prefs_show_floating_button"
+        android:defaultValue="true"
+        android:title="@string/pref_fab_title"
+        android:summary="@string/pref_fab_desc" />
+
+    <SwitchPreferenceCompat
+        android:key="prefs_permit_extended_scanning"
+        android:defaultValue="false"
+        android:title="@string/pref_extscan_title"
+        android:summary="@string/pref_extscan_desc" />
+
+</android.support.v7.preference.PreferenceScreen>

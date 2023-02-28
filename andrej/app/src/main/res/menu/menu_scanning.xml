@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_scanning_views"
+        android:title="@string/menu_scanning_views"
+        android:icon="@drawable/ic_toggle_views"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/menu_scanning_flash"
+        android:title="@string/menu_scanning_flash"
+        android:icon="@drawable/ic_flash"
+        app:showAsAction="always"
+        />
+
+</menu>

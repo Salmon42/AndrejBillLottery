@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="frontend.dialogs.ConfirmDialog">
+
+    <TextView
+        android:id="@+id/cdlg_conf_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="start"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/cdlg_conf_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/cdlg_conf_title"
+        android:padding="16dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/cdlg_conf_button_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cdlg_conf_message"
+        android:layout_alignParentEnd="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/cdlg_conf_button_neg"
+            style="@style/AppButtonTransparent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="@string/no"
+            android:textAllCaps="true"
+            android:textColor="@color/darkGray"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/cdlg_conf_button_pos"
+            style="@style/AppButtonTransparent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="@string/yes"
+            android:textAllCaps="true"
+            android:textColor="@color/darkGray"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</RelativeLayout>

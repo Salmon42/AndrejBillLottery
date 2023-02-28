@@ -1,0 +1,48 @@
+apply plugin: 'com.android.application'
+apply plugin: 'io.fabric'
+
+android {
+    compileSdkVersion 27
+    defaultConfig {
+        applicationId "com.andrejhucko.andrej"
+        minSdkVersion 19
+        targetSdkVersion 27
+        versionCode 10
+        versionName "1.0.5"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            debuggable false
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support:exifinterface:27.1.1'
+    implementation 'com.android.support:design:27.1.1'
+    implementation 'com.android.support:support-v4:27.1.1'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    // old: implementation 'com.takisoft.fix:preference-v7:26.1.0.0'
+    implementation 'com.takisoft.fix:preference-v7:27.1.1.0'
+    // custom calendar
+    implementation 'com.github.sundeepk:compact-calendar-view:2.0.2.3'
+    // Firebase
+    implementation 'com.google.firebase:firebase-core:16.0.6'
+    // ML kit
+    implementation 'com.google.firebase:firebase-ml-vision:18.0.2'
+    // Crashlytics
+    implementation 'com.crashlytics.sdk.android:crashlytics:2.9.8'
+    // Database
+    implementation 'com.google.firebase:firebase-database:16.0.5'
+
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+}
+
+apply plugin: 'com.google.gms.google-services'
